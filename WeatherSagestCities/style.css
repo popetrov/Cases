@@ -1,0 +1,43 @@
+.general {
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	min-width: 300px;
+	width: fit-content;
+	background-color: wheat;
+	border: 2px solid rgb(230, 207, 167);
+	border-radius: 10px;
+}
+.weather {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+.suggestCities {
+	margin-top: 10px;
+	width: 178px;
+}
+.weather-variant {
+	display: inline-block;
+}
+.weather-temperature {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	margin-left: 20px;
+}
+.inputCity {
+	border: 2px solid rgb(165, 228, 217);
+	background: rgb(209, 255, 240);
+	border-radius: 5px;
+}
+.cityOptions {
+	display: block;
+	max-height: 100px;
+	overflow-y: scroll;
+}
+.span {
+	display: block;
+	color: teal;
+	border: 1px solid teal;
+}

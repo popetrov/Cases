@@ -1,0 +1,17 @@
+{
+  "name": "homework-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pasha Petrov",
+  "license": "ISC",
+  "dependencies": {
+    "cat-age-calculator": "1.0.6",
+    "jquery": "3.6.0"
+  }
+}

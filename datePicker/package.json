@@ -1,0 +1,23 @@
+{
+  "name": "labaratory-work-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pasha Petrov",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.15.4",
+    "jquery": "3.6.0",
+    "js-datepicker": "5.18.0",
+    "nativescript-modal-datetimepicker": "2.1.5",
+    "simplepicker": "2.0.4",
+    "vanilla-js-calendar": "1.1.0"
+  },
+  "devDependencies": {
+    "vanillajs-datepicker": "1.1.4"
+  }
+}

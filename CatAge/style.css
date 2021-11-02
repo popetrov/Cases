@@ -1,0 +1,45 @@
+.container {
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+	background-color: rgb(206, 255, 239);
+	border-radius: 5px;
+	border: 1px solid aqua;
+}
+.button {
+	margin-top: 5px;
+	min-width: 100px;
+	max-width: 200px;
+	min-height: 35px;
+	height: auto;
+	border: 1px solid aqua;
+	border-radius: 5px;
+}
+.input {
+	margin-top: 5px;
+	min-width: 100px;
+	max-width: 200px;
+	min-height: 35px;
+	height: auto;
+	border: 1px solid aqua;
+	border-radius: 5px;
+}
+.age_cat {
+	font-weight: 500;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 5px;
+	min-width: 100px;
+	max-width: 200px;
+	min-height: 35px;
+	height: auto;
+	border: 1px solid aqua;
+	border-radius: 5px;
+}
+.age_cat__img {
+	width: 20px;
+	height: 20px;
+}
